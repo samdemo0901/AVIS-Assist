@@ -1,0 +1,28 @@
+name: avis_mobile
+description: "AVIS Next-Gen Mobile - Futuristic 3D Neural Particle Sphere AI Interface with Gemini Live Multimodal Brain"
+publish_to: 'none'
+version: 3.32.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit: ^4.2.2
+  google_fonts: ^6.2.1
+  web_socket_channel: ^3.0.1
+  webview_flutter: ^4.14.1
+  shared_preferences: ^2.3.2
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+dependency_overrides:
+  path_provider_android: 2.2.23
